@@ -1,0 +1,83 @@
+body{
+    margin: auto;
+    width: 700px;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    align-items: center;
+}
+
+#title , .information{
+    color: white;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.img{
+    height: 100%;
+    vertical-align: middle;
+}
+
+#parent{
+    width: 100%;
+    height: 400px;
+    background-color: lightblue;
+    line-height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+#child{
+    position: absolute;
+    cursor: move;
+}
+
+.tag_border{
+    display: block;
+}
+
+.middle{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#cheese_cake_pot{
+    position: absolute;
+    border: 4px solid red;
+    width: 115px;
+    height: 60px;
+    top: 240px;
+    left: 250px;
+}
+
+#target_info_box{
+    display: flex;
+}
+
+#target_img_box{
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+}
+
+#target_img{
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+}
+
+#info_text{
+    margin-left: 10px;
+}
+
+#target_title{
+    margin: 0;
+}
+
+#target_info{
+    margin: 0;
+}
