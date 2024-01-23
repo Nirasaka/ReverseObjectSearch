@@ -1,0 +1,48 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>逆引きオブジェクト検索 サンプル</title>
+    <link rel="stylesheet" href="obj.css">
+</head>
+
+<body>
+    <div id="bg">
+        <header>
+            <h2 id="title">逆引きオブジェクト検索 イメージ</h2>
+            <p class="information">画像内の当たり判定があるオブジェクトにカーソルを重ねると、そのオブジェクトのサムネイル、名前、説明が表示されます。</p>
+            <p class="information">画像はマウスで自由に移動、拡大・縮小が行えます。ダブルクリックで元サイズに戻ります。</p>
+            <p class="information">※このサイトは試作品です。イメージとして自分の描いた絵を使用しています。</p>
+        </header>
+    
+        <div id="parent">
+            <div id="child">
+                <img class="img" src="img1.png">
+                <div id="cheese_cake_pot" class="tag_border"></div>
+            </div>
+        </div>
+
+        <div>
+            <label class="middle">
+                <input type="checkbox" id="obj_checkbox" checked/>
+                オブジェクトの当たり判定表示
+            </label>
+        </div>
+
+        <div id="target_info_box">
+            <div id="target_img_box">
+                <img id="target_img">
+            </div>
+            <div id="info_text">
+                <h3 id="target_title"></h3>
+                <p id="target_info"></p>
+            </div>
+        </div>
+        
+    </div>
+    
+
+
+    
+    <script src="obj.js" async></script>
+</body>
+</html>
